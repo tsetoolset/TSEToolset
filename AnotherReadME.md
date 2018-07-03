@@ -6,3 +6,5 @@ This is going to QA
 * then do that
 * Lets add a third
 * I like cats
+
+*Today on July 3, I'm adding that I like dogs.
