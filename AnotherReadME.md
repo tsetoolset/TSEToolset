@@ -5,7 +5,7 @@ This is going to QA
 * first do this
 * then do that
 * Lets add a third
-* I like cats  // next time let's not include cats
+* I like cats //I really like dogs
 
 * Today on July 3, I'm adding that I like birds. new line
 * Me too
