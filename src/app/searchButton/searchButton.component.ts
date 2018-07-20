@@ -15,5 +15,31 @@ export class SearchButtonComponent implements OnInit {
   ngOnInit() {
   }
 
+  saveData() {
+    console.log('in save data!')
 
+    var form = $("#idFormtoemail");
+    //still need to restrict submit by valid email
+    var inputemail = $("#idInputToEmail")[0].value;
+    var userStartDate = $("#startDate").text();
+    var userEndDate = $("#endDate").text();
+
+    var result = {
+      inputemail,
+      userStartDate,
+      userEndDate,
+    }
+    alert(
+      `Searching email ${inputemail}\n` +
+      `Start date: ${userStartDate}\n` +
+      `End date: ${userEndDate}\n` +
+      `JSON: ${JSON.stringify(result,null,2)}`
+    );
+
+    //still need to get datepicker to store in var
+    //var selectedFromDate = document.getElementById("selectedFromDate").value;
+    //var selectedToDates = document.getElementById("selectedToDate").value;
+    //alert(selectedFromDate);
+    //alert(selectedToDate);
+  }
 }

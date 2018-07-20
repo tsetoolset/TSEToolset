@@ -13,7 +13,10 @@ export class ToEmailComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  
+    //$('idInputToEmail')
+    //.on('valid.fndtn.abide', function () {
+      //console.log('valid!');
+    //});
   }
 
 }
