@@ -3,3 +3,9 @@ h1 {
     text-align: center;
     color: dodgerblue;
 }
+
+.content {
+    margin-left: auto;
+    background: white;
+    padding: 10px;
+}
