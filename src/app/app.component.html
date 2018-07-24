@@ -1,12 +1,16 @@
 <h1>SendGrid Search app</h1>
+<div class="content">
+<div class="row">
+  <span class="small-2 small-centered columns"></span>
+  <div class="small-8 small-centered columns ">
+    <app-navBar></app-navBar>
+  </div>
+  <span class="small-2 small-centered columns"></span>
+</div>
 
 <div class="row">
-
-  <div class="medium-3 columns">
-    <app-navBar></app-navBar>
-  </div>  
-
-  <div class="medium-6 columns">
+    <span class="small-2 small-centered columns"></span>
+  <div class="small-8 small-centered columns">
     <form (submit)="onSubmit()" method="#" accept-charset="utf-8" role="form" name="nameFormToEmail" id="idFormtoemail" data-abide novalidate>
       <app-toEmail></app-toEmail>
       <app-dateSelector></app-dateSelector>
@@ -15,8 +19,9 @@
       <!-- create submit button component?-->
       
     </div>
+    <span class="small-2 small-centered columns"></span>
   </div>
-
+</div>
 
 <!--new row and component for return results?-->
 <!--new component and foundadtion for pagination?-->
