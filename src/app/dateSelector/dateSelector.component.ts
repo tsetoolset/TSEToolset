@@ -18,6 +18,7 @@ export class DateSelectorComponent implements OnInit {
         // implementation of custom elements instead of inputs
           var startDate = new Date();
           var endDate = new Date();
+
           $('#dp4').fdatepicker()
               .on('changeDate', function (ev) {
               if (ev.date.valueOf() > endDate.valueOf()) {
