@@ -36,10 +36,5 @@ export class SearchButtonComponent implements OnInit {
       `JSON: ${JSON.stringify(result,null,2)}`
     );
 
-    //still need to get datepicker to store in var
-    //var selectedFromDate = document.getElementById("selectedFromDate").value;
-    //var selectedToDates = document.getElementById("selectedToDate").value;
-    //alert(selectedFromDate);
-    //alert(selectedToDate);
   }
 }
